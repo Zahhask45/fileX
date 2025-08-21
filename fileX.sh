@@ -1,6 +1,6 @@
 #!/bin/sh
 
 RANDOM=$(date +%s)
-USER=(whoami)
+USER=$(whoami)
 
-touch "/nfs/homes/$(USER)/Desktop/file${RANDOM}.txt"
+touch "/home/${USER}/Desktop/.file${RANDOM}.txt"
